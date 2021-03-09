@@ -1,0 +1,110 @@
+{
+	"name": "cypress-testing",
+	"version": "1.0.0",
+	"private": true,
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "lint-staged",
+			"post-commit": "git update-index --again"
+		}
+	},
+	"scripts": {
+		"cypress:open": "cypress open",
+		"cypress:run": "cypress run",
+		"release": "standard-version",
+		"postrelease": "git push --follow-tags origin master && npm publish",
+		"lint": "eslint \"src/**\"",
+		"prettier:base": "prettier --parser typescript --single-quote",
+		"prettier:check": "npm run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
+		"prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\"",
+		"build:tsc": "tsc",
+		"lint:tsc": "tsc --project tsconfig.lint.json",
+		"lint:tsc:cypress": "tsc --project cypress/tsconfig.json",
+		"forever": "forever start app.js"
+	},
+	"lint-staged": {
+		"**/*.{js,jsx,ts,tsx,vue,svelte}": [
+			"npm run test",
+			"npm run prettier",
+			"npm run lint"
+		],
+		"*.{css,less,scss}": [
+			"npm run stylelint"
+		],
+		"*.scss": [
+			"npm run stylelint"
+		],
+		"*.{png,jpeg,jpg,gif,svg}": [
+			"imagemin-lint-staged"
+		]
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.5",
+		"@testing-library/user-event": "^12.8.1",
+		"@types/enzyme": "^3.10.8",
+		"@types/enzyme-adapter-react-16": "^1.0.6",
+		"@types/jest": "^26.0.20",
+		"@types/node": "^14.14.32",
+		"@types/react": "^17.0.3",
+		"@vue/cli-plugin-babel": "^4.5.11",
+		"@vue/cli-service": "^4.5.11",
+		"@vue/compiler-sfc": "^3.0.7",
+		"@vue/eslint-config-airbnb": "^5.3.0",
+		"core-js": "^2.6.12",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.6",
+		"enzyme-to-json": "^3.6.1",
+		"eslint": "^7.21.0",
+		"eslint-import-resolver-typescript": "^2.4.0",
+		"eslint-import-resolver-webpack": "^0.13.0",
+		"eslint-plugin-graphql": "^4.0.0",
+		"eslint-plugin-jest-dom": "^3.6.5",
+		"eslint-plugin-jest-formatting": "^2.0.1",
+		"eslint-plugin-jsdoc": "^32.2.0",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-lodash": "^7.1.0",
+		"eslint-plugin-markdown": "^2.0.0",
+		"eslint-plugin-no-constructor-bind": "^2.0.4",
+		"eslint-plugin-no-cyrillic-string": "^1.0.5",
+		"eslint-plugin-optimize-regex": "^1.2.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-native": "^3.10.0",
+		"eslint-plugin-react-redux": "^3.3.2",
+		"eslint-plugin-security": "^1.4.0",
+		"eslint-plugin-sql": "^1.2.0",
+		"eslint-plugin-test-selectors": "^1.3.0",
+		"eslint-plugin-tsdoc": "^0.2.11",
+		"eslint-plugin-you-dont-need-lodash-underscore": "^6.11.0",
+		"eslint-webpack-plugin": "^2.5.2",
+		"jest": "^26.6.3",
+		"standard-version": "^9.1.1",
+		"ts-jest": "^26.5.3",
+		"typescript": "^4.2.3",
+		"@actions/core": "^1.2.6",
+		"@actions/github": "^4.0.0",
+		"typestyle": "^2.1.0"
+	},
+	"engines": {
+		"node": ">= 12.0.0",
+		"npm": ">= 6.0.0"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"dependencies": {
+		"@actions/core": "^1.2.6",
+		"@actions/github": "^4.0.0",
+		"typestyle": "^2.1.0"
+	}
+}

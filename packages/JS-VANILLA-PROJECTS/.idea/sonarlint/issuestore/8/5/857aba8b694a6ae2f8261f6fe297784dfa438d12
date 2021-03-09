@@ -1,0 +1,35 @@
+
+9Web:HeaderCheck"&Add or update the header of this file.
+rWeb:MaxLineLengthCheckw"KSplit this 183 characters long line (which is greater than 120 authorized).(¬•ßšşÿÿÿÿ
+sWeb:MaxLineLengthCheck"KSplit this 131 characters long line (which is greater than 120 authorized).(¥Ã·Ÿıÿÿÿÿ
+}	Web:S1829"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(¹ÔÙâ
+f Web:ImgWithoutWidthOrHeightCheck":Add both a 'width' and a 'height' attribute to this image.(šÖÛ
+sWeb:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(£Ê±œşÿÿÿÿ
+QWeb:InternationalizationCheck")Define this label in the resource bundle.(£Øâ:
+WWeb:InternationalizationCheck-")Define this label in the resource bundle.(¨›è·ıÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheck<"Remove this commented out code.(²øãÔúÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheckR"Remove this commented out code.(‹òá¤ıÿÿÿÿ
+NWeb:AvoidCommentedOutCodeCheckg"Remove this commented out code.(‰§¡ùÿÿÿÿ
+‚	Web:S1829w"hReplace this absolute URI "href" with a relative one, or move this absolute URI to a configuration file.(¬•ßšşÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheck†"Remove this commented out code.(ÿ†áÅúÿÿÿÿ
+JWeb:AvoidCommentedOutCodeCheckŒ"Remove this commented out code.(Ö¶·
+OWeb:AvoidCommentedOutCodeCheck•"Remove this commented out code.(‹òá¤ıÿÿÿÿ
+XWeb:InternationalizationCheckı")Define this label in the resource bundle.(ıÚğÍÿÿÿÿÿ
+oWeb:InputWithoutLabelCheckş"HAdd an "id" attribute to this input field and associate it with a label.(Î¬ õ
+XWeb:InternationalizationCheckÿ")Define this label in the resource bundle.(ˆŠ«¬ıÿÿÿÿ
+oWeb:InputWithoutLabelCheck€"HAdd an "id" attribute to this input field and associate it with a label.(Àƒ±ˆ
+tWeb:InputWithoutLabelCheck‚"HAdd an "id" attribute to this input field and associate it with a label.(ˆ±¯üÿÿÿÿ
+XWeb:InternationalizationCheckƒ")Define this label in the resource bundle.(ûØæşÿÿÿÿ
+tWeb:InputWithoutLabelCheck„"HAdd an "id" attribute to this input field and associate it with a label.(îÜºñşÿÿÿÿ
+oWeb:InputWithoutLabelCheck†"HAdd an "id" attribute to this input field and associate it with a label.(È ÉÆ
+XWeb:InternationalizationCheck‡")Define this label in the resource bundle.(Š¶Å®ùÿÿÿÿ
+nWeb:InputWithoutLabelCheckˆ"HAdd an "id" attribute to this input field and associate it with a label.(õù”L
+XWeb:InternationalizationCheckŒ")Define this label in the resource bundle.(ßØÁÙıÿÿÿÿ
+tWeb:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(¥Ã·Ÿıÿÿÿÿ
+tWeb:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(ŒòÔşÿÿÿÿ
+tWeb:InputWithoutLabelCheck’"HAdd an "id" attribute to this input field and associate it with a label.(ŸãÀÕûÿÿÿÿ
+tWeb:InputWithoutLabelCheck”"HAdd an "id" attribute to this input field and associate it with a label.(ÑˆË­üÿÿÿÿ
+tWeb:InputWithoutLabelCheck–"HAdd an "id" attribute to this input field and associate it with a label.(×ìÄ÷ûÿÿÿÿ
+tWeb:InputWithoutLabelCheck˜"HAdd an "id" attribute to this input field and associate it with a label.(¤ éÓıÿÿÿÿ
+SWeb:InternationalizationCheckŸ")Define this label in the resource bundle.(Ğªî
+EWeb:NonConsecutiveHeadingCheckü"Do not skip level H2.(öœ‚İıÿÿÿÿ

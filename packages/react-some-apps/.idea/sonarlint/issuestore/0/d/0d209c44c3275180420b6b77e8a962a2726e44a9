@@ -1,0 +1,14 @@
+
+rWeb:MaxLineLengthCheck"KSplit this 193 characters long line (which is greater than 120 authorized).(Á™âªüÿÿÿÿ
+8Web:InlineStyleCheck"Use CSS classes instead.(Þš”ó
+rWeb:MaxLineLengthCheck"KSplit this 193 characters long line (which is greater than 120 authorized).(ÝÍÆ—ýÿÿÿÿ
+rWeb:MaxLineLengthCheck"KSplit this 197 characters long line (which is greater than 120 authorized).(úÃ²ðûÿÿÿÿ
+WWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯M
+=Web:InlineStyleCheck"Use CSS classes instead.(ÝÍÆ—ýÿÿÿÿ
+mWeb:MaxLineLengthCheck"KSplit this 190 characters long line (which is greater than 120 authorized).(Þš”ó
+=Web:InlineStyleCheck"Use CSS classes instead.(Á™âªüÿÿÿÿ
+=Web:InlineStyleCheck"Use CSS classes instead.(úÃ²ðûÿÿÿÿ
+8Web:InlineStyleCheck"Use CSS classes instead.(©°êæ
+mWeb:MaxLineLengthCheck"KSplit this 190 characters long line (which is greater than 120 authorized).(©°êæ
+9Web:HeaderCheck"&Add or update the header of this file.
+DWeb:NonConsecutiveHeadingCheck"Do not skip level H2.(öðŽµøÿÿÿÿ

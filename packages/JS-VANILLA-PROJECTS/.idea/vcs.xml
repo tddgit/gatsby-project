@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/To-do-list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-banking-website" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-beatmaker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-forkify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-to-do-list" vcs="Git" />
+  </component>
+</project>
