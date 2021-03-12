@@ -1,0 +1,15 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/",
+        "dist/",
+        "coverage/"
+    ],
+
+    "watch": ["./src/server", "./src/schema"],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,json,ts,tsx,vue,html,jsx,css,scss"
+}
